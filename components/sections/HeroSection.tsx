@@ -8,9 +8,9 @@ import { track } from '@/lib/analytics'
 export function HeroSection() {
   return (
     <section id="inicio" className="hero-section">
-      <div className="container relative z-10 grid items-center gap-10 pt-36 sm:pt-40 pb-14 lg:min-h-[100vh] lg:grid-cols-[1.15fr_0.85fr] lg:gap-14 lg:pt-36 lg:pb-16">
+      <div className="container relative z-10 grid items-center gap-10 pt-32 sm:pt-40 pb-14 lg:min-h-[100vh] lg:grid-cols-[1.15fr_0.85fr] lg:gap-14 lg:pt-36 lg:pb-16">
         {/* Left: Copy */}
-        <div className="hero-copy text-left flex flex-col items-start">
+        <div className="hero-copy text-left flex flex-col items-start pt-3 sm:pt-0">
           {/* Pill Tag (Hidden on mobile) */}
           <div className="hidden sm:inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-3.5 sm:px-4 py-1.5 text-[10px] sm:text-[11px] font-medium tracking-wide text-slate-300 backdrop-blur-sm mb-5 sm:mb-6">
             <Shield size={13} className="text-slate-400 shrink-0" />
@@ -18,7 +18,7 @@ export function HeroSection() {
           </div>
 
           {/* Headline */}
-          <h1 className="font-serif text-[2.4rem] sm:text-[3.25rem] lg:text-[3.65rem] xl:text-[4rem] leading-[1.08] tracking-normal font-normal text-white text-left">
+          <h1 className="font-serif text-[2.25rem] sm:text-[3.25rem] lg:text-[3.65rem] xl:text-[4rem] leading-[1.1] tracking-normal font-normal text-white text-left">
             Você vai esperar<br />
             o banco tomar<br />
             <span className="text-[#6fa8e7]">o que levou uma<br />

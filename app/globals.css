@@ -354,14 +354,15 @@ a { transition: color 180ms ease, opacity 180ms ease; }
 }
 
 @media (max-width: 1023px) {
-  .hero-section .container { padding-top: 5rem; }
+  .hero-section .container { padding-top: 8rem; }
 }
 
 @media (max-width: 639px) {
   .container { width: min(100% - 1.5rem, 1180px); }
-  .site-header .container { min-height: 80px; padding-top: 0.25rem; padding-bottom: 0.25rem; display: flex; align-items: center; }
+  .site-header .container { min-height: 70px; padding-top: 0.25rem; padding-bottom: 0.25rem; display: flex; align-items: center; }
   .site-header .header-cta { margin-left: auto; }
   .hero-section::after { width: 100%; opacity: .35; }
+  .hero-section .container { padding-top: 8.5rem; }
   .hero-copy { padding-top: 0; }
   .metric { min-height: 140px; padding: 1.25rem 1rem; }
   .metric strong { font-size: 1.4rem; }
