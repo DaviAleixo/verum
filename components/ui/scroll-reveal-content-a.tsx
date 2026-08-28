@@ -103,7 +103,7 @@ export default function ScrollRevealContentA({
       {/* Desktop view: 55/45 layout with full-bleed photographic right panel */}
       <div className="hidden lg:grid grid-cols-[55%_45%] w-full items-stretch min-h-full relative">
         {/* Left Column: Header + Natural Flow of Items */}
-        <div className="flex flex-col justify-center py-20 lg:py-24 pl-8 sm:pl-12 lg:pl-20 pr-8 lg:pr-14 max-w-[760px] ml-auto w-full">
+        <div className="flex flex-col justify-center py-16 sm:py-20 pl-8 sm:pl-12 lg:pl-20 pr-8 lg:pr-14 max-w-[760px] ml-auto w-full">
           {header && <div className="mb-6">{header}</div>}
 
           <div className="flex flex-col gap-4">

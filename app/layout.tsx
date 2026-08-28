@@ -1,5 +1,5 @@
 import { Analytics } from '@vercel/analytics/next'
-import { Inter, Cormorant_Garamond } from 'next/font/google'
+import { Inter, Plus_Jakarta_Sans } from 'next/font/google'
 import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
@@ -9,9 +9,9 @@ const inter = Inter({
   variable: '--font-inter' 
 })
 
-const cormorant = Cormorant_Garamond({ 
+const jakarta = Plus_Jakarta_Sans({ 
   subsets: ['latin'], 
-  weight: ['300', '400', '500', '600', '700'], 
+  weight: ['500', '600', '700', '800'], 
   variable: '--font-serif' 
 })
 
@@ -76,7 +76,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <link rel="dns-prefetch" href="https://images.converteai.net" />
         <link rel="dns-prefetch" href="https://license.vturb.com" />
       </head>
-      <body className={`${inter.variable} ${cormorant.variable} font-sans antialiased`} suppressHydrationWarning>
+      <body className={`${inter.variable} ${jakarta.variable} font-sans antialiased`} suppressHydrationWarning>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

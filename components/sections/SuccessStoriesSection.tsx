@@ -137,13 +137,13 @@ export function CaseCarousel() {
 
 export function SuccessStoriesSection() {
   return (
-    <section id="casos" className="bg-[#f8fafc] py-20 lg:py-24 text-slate-900">
+    <section id="casos" className="bg-[#f8fafc] py-16 sm:py-20 text-slate-900">
       <div className="container max-w-6xl">
-        <div className="mx-auto mb-12 text-center max-w-4xl">
+        <div className="mx-auto mb-10 sm:mb-12 text-center max-w-4xl">
           <div className="mb-4 inline-flex items-center justify-center gap-2 rounded-full border border-[#2b86ff]/20 bg-[#2b86ff]/5 px-4 py-1 text-[11px] font-semibold tracking-widest text-[#2b86ff] uppercase">
             Resultados que comprovam
           </div>
-          <h2 className="mx-auto text-balance text-[2rem] font-normal leading-[1.15] tracking-tight text-[#0b1120] sm:text-[2.75rem] font-serif">
+          <h2 className="mx-auto text-balance text-[2rem] font-bold leading-[1.15] tracking-tight text-[#0b1120] sm:text-[2.75rem] font-serif">
             5 Histórias de clientes da Verum <br className="hidden sm:block" />
             que <span className="text-[#2b86ff]">&ldquo;viraram o jogo&rdquo;</span> com os bancos
           </h2>

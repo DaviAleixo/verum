@@ -6,13 +6,18 @@ import { track } from '@/lib/analytics'
 
 export function ConsultingSection() {
   return (
-    <section id="consultoria" className="bg-[#040c18] py-20 lg:py-24 text-white">
-      <div className="container max-w-6xl">
-        <div className="mb-14 text-center max-w-3xl mx-auto">
+    <section id="consultoria" className="relative overflow-hidden bg-[#040c18] py-16 sm:py-20 text-white">
+      {/* Background Image: reduzirpressao.webp - only on desktop */}
+      <div className="absolute inset-0 z-0 pointer-events-none hidden md:block">
+        <div className="absolute left-0 top-0 h-full w-full bg-[url('/reduzirpressao.webp')] bg-cover bg-center bg-no-repeat opacity-5 mix-blend-luminosity" />
+      </div>
+
+      <div className="container relative z-10 max-w-6xl">
+        <div className="mb-10 sm:mb-12 text-center max-w-3xl mx-auto">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-[11px] font-semibold tracking-widest text-[#6fa8e7] uppercase backdrop-blur-sm">
             CONSULTORIA ESPECIALIZADA
           </div>
-          <h2 className="font-serif text-3xl font-semibold tracking-tight sm:text-4xl lg:text-[42px] leading-tight">
+          <h2 className="font-serif text-3xl font-bold tracking-tight sm:text-4xl lg:text-[42px] leading-tight">
             Seja assessorado por quem já foi bancário e conhece o sistema por dentro.
           </h2>
           <p className="mt-4 text-[15px] leading-relaxed text-slate-400">

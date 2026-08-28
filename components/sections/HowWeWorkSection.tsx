@@ -3,17 +3,17 @@ import { ShieldCheck, FileCheck2, Users, Hourglass } from 'lucide-react'
 
 export function HowWeWorkSection() {
   return (
-    <section id="como-atuamos" className="bg-white py-14 sm:py-18 text-slate-900 relative overflow-hidden">
+    <section id="como-atuamos" className="bg-white py-16 sm:py-20 text-slate-900 relative overflow-hidden">
       <div className="container max-w-6xl relative z-10">
-        <div className="mb-10 text-center max-w-3xl mx-auto">
+        <div className="mb-10 sm:mb-12 text-center max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-2 rounded-full bg-[#f0f5ff] px-4 py-1.5 text-[11px] font-bold tracking-widest text-[#2b86ff] uppercase mb-4">
             COMO ATUAMOS
           </div>
-          <h2 className="font-serif text-[28px] sm:text-4xl lg:text-[42px] font-normal leading-[1.15] tracking-tight text-slate-900">
-            Entenda como a <span className="text-[#2b86ff] font-medium">Verum</span> atua ao lado<br className="hidden sm:block" />da sua empresa.
+          <h2 className="font-serif text-[24px] sm:text-3xl lg:text-[36px] font-bold leading-[1.25] tracking-tight text-slate-900 max-w-2xl mx-auto">
+            Quando a dívida com o banco aperta o caixa, <span className="text-[#2b86ff]">sua empresa fica em risco.</span>
           </h2>
           <p className="mt-4 text-[15px] sm:text-[16px] leading-relaxed text-slate-500 font-medium max-w-2xl mx-auto">
-            Experiência técnica e jurídica para negociar de igual para igual<br className="hidden sm:block" />com o sistema bancário.
+            Entenda como a Verum atua ao lado do seu negócio para proteger seu patrimônio e renegociar o valor correto:
           </p>
         </div>
 

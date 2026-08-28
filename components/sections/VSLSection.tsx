@@ -1,15 +1,22 @@
+'use client'
+
 import React from 'react'
 import { VSLPlayer } from '@/components/media/VSLPlayer'
+import { useIsMobile } from '@/hooks/useIsMobile'
 
 export function VSLSection() {
+  const isMobile = useIsMobile()
+
+  if (isMobile) return null
+
   return (
-    <section id="conheca-a-verum" className="relative overflow-hidden bg-[#040814] py-24 sm:py-28">
+    <section id="conheca-a-verum" className="relative overflow-hidden bg-[#040814] py-16 sm:py-20">
       <div className="container relative z-10">
-        <div className="mx-auto max-w-3xl text-center mb-12">
+        <div className="mx-auto max-w-3xl text-center mb-10 sm:mb-12">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-[11px] font-semibold tracking-widest text-[#6fa8e7] uppercase backdrop-blur-sm">
             CONHEÇA A VERUM
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-[2.75rem] font-semibold leading-[1.15] text-white max-w-2xl mx-auto">
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-[2.75rem] font-bold leading-[1.15] text-white max-w-2xl mx-auto">
             Entenda como a Verum atua ao lado da sua empresa.
           </h2>
           <p className="mt-4 text-[14px] sm:text-[15px] leading-relaxed text-slate-400 max-w-xl mx-auto font-light">

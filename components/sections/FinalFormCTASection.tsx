@@ -62,7 +62,7 @@ export function FinalFormCTASection() {
               <span className="h-px w-8 bg-[#6fa8e7]/60 lg:hidden" />
             </div>
 
-            <h2 className="font-serif text-[26px] sm:text-[36px] lg:text-[42px] font-normal leading-[1.18] text-white">
+            <h2 className="font-serif text-[26px] sm:text-[36px] lg:text-[42px] font-bold leading-[1.18] text-white">
               Dívidas bancárias relevantes exigem{' '}
               <span className="text-[#6fa8e7]">estratégia, técnica e negociação especializada.</span>
             </h2>
