@@ -6,7 +6,7 @@ export interface LogoProps {
   className?: string
 }
 
-export function Logo({ src = '/logo-verum.png', alt = 'Grupo Verum', className }: LogoProps) {
+export function Logo({ src = '/logo-verum.webp', alt = 'Grupo Verum', className }: LogoProps) {
   return (
     <a href="#inicio" className="flex items-center" aria-label="Grupo Verum, início">
       <img

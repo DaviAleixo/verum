@@ -32,7 +32,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         {/* Ambient Top Glow & Watermark */}
         <div className="pointer-events-none absolute -top-20 -right-20 w-64 h-64 bg-[#2b86ff]/10 rounded-full blur-3xl" />
         <div className="pointer-events-none absolute -bottom-16 -right-16 w-60 select-none opacity-[0.06] mix-blend-screen">
-          <img src="/backgroundvideo.png" alt="" className="w-full h-auto invert brightness-90" />
+          <img src="/backgroundvideo.webp" alt="" className="w-full h-auto invert brightness-90" />
         </div>
 
         {/* Header with Logo & Close Button */}

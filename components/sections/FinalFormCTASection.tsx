@@ -11,7 +11,7 @@ export function FinalFormCTASection() {
         aria-hidden="true"
       >
         <img
-          src="/backgroundvideo.png"
+          src="/backgroundvideo.webp"
           alt=""
           className="w-full h-auto object-contain invert brightness-90 hue-rotate-[185deg] saturate-150"
         />

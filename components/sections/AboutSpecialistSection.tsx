@@ -6,7 +6,7 @@ export function AboutSpecialistSection() {
   return (
     <section id="sobre" className="relative overflow-hidden bg-[#071322] text-white border-t border-white/5">
       <div className="absolute inset-0 z-0 pointer-events-none">
-        <div className="absolute left-0 top-0 h-full w-full bg-[url('/reduzirpressao.png')] bg-cover bg-center bg-no-repeat opacity-5 mix-blend-luminosity" />
+        <div className="absolute left-0 top-0 h-full w-full bg-[url('/reduzirpressao.webp')] bg-cover bg-center bg-no-repeat opacity-5 mix-blend-luminosity" />
       </div>
 
       <div className="relative z-10 w-full">
@@ -24,7 +24,7 @@ export function AboutSpecialistSection() {
           }
           items={especialistaItems}
           sideImage={{
-            url: '/estatua1.png',
+            url: '/estatua1.webp',
             alt: 'Verum Especialista em Dívidas Bancárias',
           }}
         />

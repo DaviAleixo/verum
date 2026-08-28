@@ -75,7 +75,7 @@ export function CaseCarousel() {
                 {/* Left Photo Panel with Law / Justice photo (approx 20%) */}
                 <div className="relative w-full lg:w-[20%] shrink-0 overflow-hidden bg-[#09152b] h-[150px] sm:h-[170px] lg:h-auto min-h-0 border-b-4 lg:border-b-0 lg:border-r-4 border-[#3b82f6] flex items-center justify-center">
                   <img
-                    src="/estatua1.png"
+                    src="/estatua1.webp"
                     alt="Direito e Justiça"
                     className="absolute inset-0 h-full w-full object-cover object-top brightness-75 scale-105 pointer-events-none"
                   />

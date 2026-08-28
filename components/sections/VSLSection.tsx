@@ -24,7 +24,7 @@ export function VSLSection() {
             aria-hidden="true"
           >
             <img
-              src="/backgroundvideo.png"
+              src="/backgroundvideo.webp"
               alt=""
               className="w-full h-auto object-contain invert brightness-95 hue-rotate-[185deg] saturate-150 mix-blend-screen opacity-45 sm:opacity-35"
             />

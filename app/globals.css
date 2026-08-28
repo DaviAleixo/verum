@@ -91,7 +91,7 @@ a { transition: color 180ms ease, opacity 180ms ease; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('/hero1.png');
+  background-image: url('/hero1.webp');
   background-size: cover;
   background-position: center right;
   opacity: 0.9;
@@ -106,7 +106,7 @@ a { transition: color 180ms ease, opacity 180ms ease; }
 
 @media (max-width: 768px) {
   .hero-section::before {
-    background-image: url('/backgoundmobile.png');
+    background-image: url('/backgoundmobile.webp');
     background-size: cover;
     background-position: center top;
     opacity: 1;

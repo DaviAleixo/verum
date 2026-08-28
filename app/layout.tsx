@@ -23,10 +23,10 @@ export const metadata: Metadata = {
   generator: 'Grupo Verum',
   icons: {
     icon: [
-      { url: '/logo-verum.png', type: 'image/png' },
+      { url: '/logo-verum.webp', type: 'image/webp' },
     ],
-    shortcut: '/logo-verum.png',
-    apple: '/logo-verum.png',
+    shortcut: '/logo-verum.webp',
+    apple: '/logo-verum.webp',
   },
   keywords: [
     'auditoria bancária',
@@ -49,8 +49,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="pt-BR" className="bg-background">
       <head>
-        <link rel="icon" href="/logo-verum.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo-verum.png" />
+        <link rel="icon" href="/logo-verum.webp" type="image/webp" />
+        <link rel="apple-touch-icon" href="/logo-verum.webp" />
         <script
           dangerouslySetInnerHTML={{
             __html: `!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);`,

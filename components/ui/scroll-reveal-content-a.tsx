@@ -30,7 +30,7 @@ export default function ScrollRevealContentA({
   header,
   items,
   sideImage = {
-    url: "/estatua1.png",
+    url: "/estatua1.webp",
     alt: "Especialista Verum",
   },
   className,

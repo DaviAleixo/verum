@@ -4,8 +4,18 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
+  },
+  compress: true,
+  output: 'standalone',
+  experimental: {
+    optimizePackageImports: [
+      'lucide-react',
+      'motion',
+      '@base-ui/react',
+    ],
   },
 }
 
 export default nextConfig
+

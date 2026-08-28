@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="container flex flex-col items-center gap-6 py-10 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex justify-center w-full sm:w-auto">
-          <Logo src="/logo2.png" />
+          <Logo src="/logo2.webp" />
         </div>
         <div className="flex flex-wrap justify-center sm:justify-start gap-5 text-xs text-muted-foreground">
           <a href="#sobre" className="hover:text-white transition-colors">Sobre a Verum</a>
