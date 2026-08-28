@@ -9,7 +9,7 @@ export function ConsultingSection() {
     <section id="consultoria" className="relative overflow-hidden bg-[#040c18] py-16 sm:py-20 text-white">
       {/* Background Image: reduzirpressao.webp - only on desktop */}
       <div className="absolute inset-0 z-0 pointer-events-none hidden md:block">
-        <div className="absolute left-0 top-0 h-full w-full bg-[url('/reduzirpressao.webp')] bg-cover bg-center bg-no-repeat opacity-5 mix-blend-luminosity" />
+        <div className="absolute left-0 top-0 h-full w-full bg-[url('/reduzirpressao.webp')] bg-cover bg-center bg-no-repeat opacity-15 sm:opacity-20 mix-blend-luminosity" />
       </div>
 
       <div className="container relative z-10 max-w-6xl">
