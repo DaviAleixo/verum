@@ -58,33 +58,36 @@ export function HeroSection() {
           </div>
 
           {/* Authority stats */}
-          <div className="mt-12 grid grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-4 pt-8 border-t border-white/10 w-full">
-            <div className="flex items-start gap-3">
-              <Shield className="h-5 w-5 text-slate-400 shrink-0 mt-0.5" strokeWidth={1.5} />
+          <div className="mt-10 sm:mt-12 grid grid-cols-2 gap-x-3.5 gap-y-5 sm:gap-x-6 sm:gap-y-6 sm:grid-cols-4 pt-6 sm:pt-8 border-t border-white/10 w-full">
+            <div className="flex items-start gap-2 sm:gap-3">
+              <Shield className="h-4.5 w-4.5 sm:h-5 sm:w-5 text-slate-400 shrink-0 mt-0.5" strokeWidth={1.5} />
               <div>
-                <strong className="block text-[15px] font-bold text-white leading-tight">R$ 15 bilhões</strong>
-                <span className="mt-1 block text-[11px] leading-snug text-slate-400">em movimentações bancárias auditadas</span>
+                <strong className="block text-[13.5px] sm:text-[15px] font-bold text-white leading-tight">R$ 15 bilhões</strong>
+                <span className="mt-1 block text-[10.5px] sm:text-[11px] leading-tight sm:leading-snug text-slate-400">em movimentações bancárias auditadas</span>
               </div>
             </div>
-            <div className="flex items-start gap-3">
-              <Users className="h-5 w-5 text-slate-400 shrink-0 mt-0.5" strokeWidth={1.5} />
+
+            <div className="flex items-start gap-2 sm:gap-3">
+              <Users className="h-4.5 w-4.5 sm:h-5 sm:w-5 text-slate-400 shrink-0 mt-0.5" strokeWidth={1.5} />
               <div>
-                <strong className="block text-[15px] font-bold text-white leading-tight">R$ 150 milhões</strong>
-                <span className="mt-1 block text-[11px] leading-snug text-slate-400">recuperados para clientes</span>
+                <strong className="block text-[13.5px] sm:text-[15px] font-bold text-white leading-tight">R$ 150 milhões</strong>
+                <span className="mt-1 block text-[10.5px] sm:text-[11px] leading-tight sm:leading-snug text-slate-400">recuperados para clientes</span>
               </div>
             </div>
-            <div className="flex items-start gap-3">
-              <TrendingUp className="h-5 w-5 text-slate-400 shrink-0 mt-0.5" strokeWidth={1.5} />
+
+            <div className="flex items-start gap-2 sm:gap-3">
+              <TrendingUp className="h-4.5 w-4.5 sm:h-5 sm:w-5 text-slate-400 shrink-0 mt-0.5" strokeWidth={1.5} />
               <div>
-                <strong className="block text-[15px] font-bold text-white leading-tight">+ 4.500</strong>
-                <span className="mt-1 block text-[11px] leading-snug text-slate-400">contas correntes auditadas</span>
+                <strong className="block text-[13.5px] sm:text-[15px] font-bold text-white leading-tight">+ 4.500</strong>
+                <span className="mt-1 block text-[10.5px] sm:text-[11px] leading-tight sm:leading-snug text-slate-400">contas correntes auditadas</span>
               </div>
             </div>
-            <div className="flex items-start gap-3">
-              <Calendar className="h-5 w-5 text-slate-400 shrink-0 mt-0.5" strokeWidth={1.5} />
+
+            <div className="flex items-start gap-2 sm:gap-3">
+              <Calendar className="h-4.5 w-4.5 sm:h-5 sm:w-5 text-slate-400 shrink-0 mt-0.5" strokeWidth={1.5} />
               <div>
-                <strong className="block text-[15px] font-bold text-white leading-tight">+ 10 anos</strong>
-                <span className="mt-1 block text-[11px] leading-snug text-slate-400">de movimentações analisadas pela auditoria</span>
+                <strong className="block text-[13.5px] sm:text-[15px] font-bold text-white leading-tight">+ 10 anos</strong>
+                <span className="mt-1 block text-[10.5px] sm:text-[11px] leading-tight sm:leading-snug text-slate-400">de movimentações analisadas pela auditoria</span>
               </div>
             </div>
           </div>
