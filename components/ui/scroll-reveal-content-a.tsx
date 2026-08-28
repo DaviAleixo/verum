@@ -76,22 +76,10 @@ export default function ScrollRevealContentA({
             {items.map((item, idx) => (
               <div
                 key={idx}
-                className={cn(
-                  "flex items-center justify-between p-4 rounded-xl border transition-all duration-300 backdrop-blur-sm",
-                  idx === 1
-                    ? "bg-[#0c1f38]/90 border-[#3b82f6]/50 shadow-[0_4px_20px_rgba(43,134,255,0.12)]"
-                    : "bg-[#091627]/80 border-white/10"
-                )}
+                className="flex items-center justify-between p-4 rounded-xl border border-white/10 bg-[#091627]/80 transition-all duration-300 backdrop-blur-sm"
               >
                 <div className="flex items-start gap-3.5 pr-2">
-                  <span
-                    className={cn(
-                      "text-[11px] font-mono px-2 py-1 rounded border font-bold shrink-0 mt-0.5",
-                      idx === 1
-                        ? "bg-[#2b86ff]/20 border-[#3b82f6]/60 text-[#6fa8e7]"
-                        : "bg-white/5 border-white/10 text-slate-400"
-                    )}
-                  >
+                  <span className="text-[11px] font-mono px-2 py-1 rounded border font-bold shrink-0 mt-0.5 bg-white/5 border-white/10 text-slate-400">
                     {item.number || `0${idx + 1}`}
                   </span>
                   <div>

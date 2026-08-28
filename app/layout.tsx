@@ -16,6 +16,7 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://verum-grupo.vercel.app'),
   title: 'Grupo Verum | Auditoria Bancária, Redução de Dívidas e Proteção Patrimonial',
   description:
     'Reduza sua dívida bancária empresarial com auditoria técnica dos últimos 10 anos. Especialistas em negociação, proteção patrimonial e reestruturação de dívidas para empresas com endividamento de R$ 1M a R$ 50M+.',
