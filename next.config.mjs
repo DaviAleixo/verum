@@ -7,7 +7,6 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
   },
   compress: true,
-  output: 'standalone',
   experimental: {
     optimizePackageImports: [
       'lucide-react',
