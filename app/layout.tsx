@@ -21,6 +21,13 @@ export const metadata: Metadata = {
   description:
     'Reduza sua dívida bancária empresarial com auditoria técnica dos últimos 10 anos. Especialistas em negociação, proteção patrimonial e reestruturação de dívidas para empresas com endividamento de R$ 1M a R$ 50M+.',
   generator: 'Grupo Verum',
+  icons: {
+    icon: [
+      { url: '/logo-verum.png', type: 'image/png' },
+    ],
+    shortcut: '/logo-verum.png',
+    apple: '/logo-verum.png',
+  },
   keywords: [
     'auditoria bancária',
     'redução de dívida empresarial',
@@ -42,6 +49,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="pt-BR" className="bg-background">
       <head>
+        <link rel="icon" href="/logo-verum.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/logo-verum.png" />
         <script
           dangerouslySetInnerHTML={{
             __html: `!function(i,n){i._plt=i._plt||(n&&n.timeOrigin?n.timeOrigin+n.now():Date.now())}(window,performance);`,
